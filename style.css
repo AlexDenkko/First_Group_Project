@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
 .nav_links_hamburger {
@@ -92,7 +93,7 @@ button:hover {
   background-color: #fff;
 }
 
-@media (max-width: 1327px) {
+@media screen and (max-width: 1327px) /* LIIAN ISO? */ { 
   .nav_logo {
     height: 100px;
     width: auto;
@@ -127,6 +128,20 @@ button:hover {
     text-align: center;
     margin: 16px 0;
   }
+
+/* FOOTER ALKAA TÄSTÄ */
+
+  .footer_logo {
+    display: none;
+    max-height: 50px;
+    padding-left: 2.5%;
+  }
+    .footer_nav {
+      display: none;
+  }
+
+  
+  
 }
 
 .nav_links_hamburger.active {
@@ -136,4 +151,75 @@ button:hover {
   align-items: center;
   gap: 60px;
   padding-bottom: 25px;
+}
+
+
+/* FOOTER ALKAA TÄSTÄ */
+
+footer {
+    background-color: #7F9183;
+    color: #FBF7F4;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 24px
+    
+}
+
+.footer_someikonit {
+    color: #FBF7F4;
+    text-align: center;
+}
+
+
+
+.fa-facebook,
+.fa-linkedin,
+.fa-twitter,
+.fa-youtube-play,
+.fa-instagram {
+    margin: 0px 8px 0px 8px;
+    transition: all 0.3s ease 0s;
+}
+
+.fa-facebook:hover,
+.fa-linkedin:hover,
+.fa-twitter:hover,
+.fa-youtube-play:hover,
+.fa-instagram:hover {
+    color: #586F6B;
+    text-align: center;
+}
+
+.footer_logo {
+    height: 100px;
+    padding-left: 5%;
+    margin-top: -40px;
+    
+}
+
+.footer_nav {
+    margin-top: -40px;
+}
+
+.footer_nav a {
+    color: #FBF7F4;
+    padding: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.footer_nav a:hover {
+    color: #586F6B;
+    padding: 20px
+}
+
+.footer_hr {
+    margin: 15px 25%;
+}
+
+/*.footer_logo,
+.footer_nav {
+    display: inline-block;
+    vertical-align: middle;
 }
