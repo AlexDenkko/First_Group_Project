@@ -16,12 +16,20 @@ header {
 }
 
 li,
-a,
+a
+{
+  font-family: "Playfair display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
 button {
   font-family: "Playfair display", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #3c423b;
+  color: #3C423B;
   text-decoration: none;
 }
 
@@ -34,7 +42,7 @@ header {
 
 .nav_logo {
   cursor: pointer;
-  height: 200px;
+  height: 150px;
   width: auto;
 }
 
@@ -57,11 +65,11 @@ header {
 }
 
 .nav_links_hamburger li a:hover {
-  color: #f2ece1;
+  color: #3C424B;
 }
 
 .nav_links li a:hover {
-  color: #f2ece1;
+  color: #3C424B;
 }
 
 button {
@@ -129,17 +137,9 @@ button:hover {
     margin: 16px 0;
   }
 
-/* FOOTER ALKAA TÄSTÄ */
-
   .footer_logo {
-    display: none;
-    max-height: 50px;
-    padding-left: 2.5%;
+    padding:50px;
   }
-    .footer_nav {
-      display: none;
-  }
-
   
   
 }
@@ -157,7 +157,7 @@ button:hover {
 /* FOOTER ALKAA TÄSTÄ */
 
 footer {
-    background-color: #7F9183;
+    background-color: #909a90;
     color: #FBF7F4;
     position: fixed;
     left: 0;
@@ -210,7 +210,7 @@ footer {
 }
 
 .footer_nav a:hover {
-    color: #586F6B;
+    color: #3C423B;
     padding: 20px
 }
 
