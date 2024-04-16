@@ -3,9 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!--Font Awesome -ikonit (elikkäs ne someikonit yms)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Tietoa meistä</title>
   </head>
   <body>
+    <header>
+      <img
+        class="nav_logo"
+        src="images/highendhikers-high-resolution-logo-white-transparent.png"
+        alt="logo"
+      />
+      <nav>
+        <ul class="nav_links">
+          <li><a href="#">Etusivu</a></li>
+          <li><a href="#">Tietoa meistä</a></li>
+          <li><a href="#">Majoitus</a></li>
+          <li><a href="#">Yhteystiedot</a></li>
+        </ul>
+        <ul class="nav_links_hamburger">
+          <li><a href="#">Etusivu</a></li>
+          <li><a href="#">Tietoa meistä</a></li>
+          <li><a href="#">Majoitus</a></li>
+          <li><a href="#">Yhteystiedot</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <a class="cta" href="#"><button>Varaa tästä</button></a>
+    </header>
+
     <div>
       <h1>Luontoa ja luksusta, seikkailua sydämessä.​</h1>
       <p>
@@ -109,5 +143,51 @@
         alt="ryhmä teltan ulkopuolella koiran kanssa"
       />
     </div>
+
+    <!--FOOTER ALKAA TÄSTÄ-->
+    <footer>
+      <!--SOMEIKONIT-->
+      <div class="footer_someikonit">
+        <i class="fa fa-facebook" style="font-size: 36px"></i>
+        <i class="fa fa-linkedin" style="font-size: 36px"></i>
+        <i class="fa fa-twitter" style="font-size: 36px"></i>
+        <i class="fa fa-youtube-play" style="font-size: 36px"></i>
+        <i class="fa fa-instagram" style="font-size: 36px"></i>
+      </div>
+      <br />
+
+      <!--FOOTERIN LOGO-->
+      <img
+        class="footer_logo"
+        src="./images/highendhikers-high-resolution-logo-white-transparent.png"
+        alt="Footerin HighEndHikers-logo"
+      />
+
+      <!--FOOTERIN NAVI-->
+      <center>
+        <div class="footer_nav">
+          <ul>
+            <li>
+              <a href="#">Etusivu</a>
+              <a href="#">Tietoa meistä</a>
+              <a href="#">Majoitus</a>
+              <a href="#">Yhteystiedot</a>
+            </li>
+          </ul>
+        </div>
+
+        <!--FOOTERIN YHTEYSTIEDOT-->
+        <hr class="footer_hr" />
+        <div class="footer_yhteystiedot">
+          Valimotie 8, 00380 Helsinki
+          <br />
+          &copy; 2024 HighEndHikers
+          <br /><br />
+        </div>
+      </center>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
   </body>
 </html>
