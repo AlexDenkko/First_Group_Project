@@ -1,9 +1,17 @@
 .hero_first {
   display: flex;
-  justify-content: space-between;
+  height: 400px;
 }
 
-.hero_first img {
-  width: 42px;
-  height: 42px;
+.hero_text {
+  flex: 1;
+}
+
+.hero_img {
+  flex: 1;
+}
+
+.hero_img img {
+  max-width: 100%;
+  max-height: 100%;
 }
