@@ -1,0 +1,9 @@
+.hero_first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero_first img {
+  width: 42px;
+  height: 42px;
+}
