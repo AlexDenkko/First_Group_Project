@@ -25,8 +25,6 @@
 }
 
 .hero_img img {
-  max-width: 100%;
-  height: auto;
   object-fit: cover;
 }
 
@@ -47,4 +45,66 @@
 
 img {
   max-width: 100%;
+}
+
+.sustainability_text {
+  display: flex;
+  background-color: #ffffff;
+  color: #3c423b;
+}
+
+.sustainability_text h1 {
+  padding-top: 40px;
+}
+
+.sustainability_text p {
+  padding: 40px 40px;
+}
+
+.sustainability_left {
+  flex: 1;
+  text-align: center;
+}
+
+.sustainability_right {
+  flex: 1;
+}
+
+.chapter_one {
+  display: flex;
+}
+
+.chapter_one svg {
+  flex: 1;
+  border: solid red 2px;
+}
+
+.chapter_one p {
+  flex: 2;
+}
+
+.chapter_two {
+  display: flex;
+}
+
+.chapter_two svg {
+  flex: 1;
+  border: solid red 2px;
+}
+
+.chapter_two p {
+  flex: 2;
+}
+
+.chapter_three {
+  display: flex;
+}
+
+.chapter_three svg {
+  flex: 1;
+  border: solid red 2px;
+}
+
+.chapter_three p {
+  flex: 2;
 }
