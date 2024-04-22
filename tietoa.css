@@ -1,6 +1,5 @@
 .hero_first {
   display: flex;
-  height: 600px;
 }
 
 .hero_text {
@@ -15,7 +14,7 @@
 }
 
 .hero_text p {
-  padding: 4px 40px;
+  padding: 10px 40px;
 }
 
 .hero_img {
@@ -45,6 +44,8 @@
 
 img {
   max-width: 100%;
+  max-width: 100%;
+  margin: 0;
 }
 
 .sustainability_text {
@@ -64,10 +65,12 @@ img {
 .sustainability_left {
   flex: 1;
   text-align: center;
+  padding: 0 60px;
 }
 
 .sustainability_right {
   flex: 1;
+  align-items: center;
 }
 
 .chapter_one {
@@ -76,11 +79,11 @@ img {
 
 .chapter_one svg {
   flex: 1;
-  border: solid red 2px;
+  align-self: center;
 }
 
 .chapter_one p {
-  flex: 2;
+  flex: 4;
 }
 
 .chapter_two {
@@ -89,11 +92,11 @@ img {
 
 .chapter_two svg {
   flex: 1;
-  border: solid red 2px;
+  align-self: center;
 }
 
 .chapter_two p {
-  flex: 2;
+  flex: 4;
 }
 
 .chapter_three {
@@ -102,9 +105,24 @@ img {
 
 .chapter_three svg {
   flex: 1;
-  border: solid red 2px;
+  align-self: center;
 }
 
 .chapter_three p {
-  flex: 2;
+  flex: 4;
+}
+
+.keho_mieli {
+  text-align: center;
+  background-color: #f2ece1;
+  color: #3c423b;
+  height: 300px;
+}
+
+.keho_mieli h1 {
+  padding-top: 40px;
+}
+
+.keho_mieli p {
+  padding: 40px 40px;
 }
