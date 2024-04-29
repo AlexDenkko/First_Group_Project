@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap");
+
+* {
+    font-family: "Playfair display", sans-serif;
+}
+
+.yt_hero_first {
+    display: flex;
+    background-color: #f2ece1;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: -10px;
+    
+  }
+
+.yt_hero_image img {
+    object-fit: cover;
+    max-width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.yt_hero_text {
+    flex: 1;
+    background-color: #f2ece1;
+    color: #3c423b;
+    text-align: center;
+    margin-left: 15%;
+    padding-top: 40px;
+}
+
+.yt_hero_text h1 {
+    margin: 0px 0px 40px;
+}
+  
+.yt_hero_text p {
+    
+}
+  
+.googlemaps {
+    flex: 1;
+    margin-right: 15%;
+}
+
+
+
+.yt_ohjeet {
+    background-color: #909a90;
+    color: #FBF7F4; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.yt_ohjeet_text h1 {
+    margin: 0px 0px 40px;
+}
+
+.yt_ohjeet_text {
+    text-align: center;
+   
+}
+
+
+.yt_ohjeet_auto {
+    text-align: center;
+    padding-top: 50px;
+   
+}
+
+
+.yt_ohjeet_julkinen {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.yt_lomake {
+    background-image: url("./images/couple-outside-landscape.jpg");
+    background-size: cover;
+    color:#3c423b;
+    background-position: 45%;
+}
+
+.yt_lomake h1 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.yt_lomake form {
+    margin-left: 41% ;
+}
+
+
+
+
+@media screen and (max-width: 1327px) {
+
+    .googlemaps {
+        display: none;
+    }
+
+    .yt_hero_text {
+        text-align: center;
+        margin-left: 0%;
+    }
+    
+    .yt_lomake form {
+        margin-left: 5%; /*VITTUKU PITÄIS OLLA 10%*/
+        
+    }
+}
