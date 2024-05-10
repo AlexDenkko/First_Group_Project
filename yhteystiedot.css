@@ -6,10 +6,12 @@
 
 .yt_hero_first {
     display: flex;
-    background-color: #f2ece1;
+    flex-direction: row;
+    background-color: #F2ECE1;
     padding-bottom: 50px;
     padding-top: 50px;
     margin-top: -10px;
+    justify-content: space-evenly;
     
   }
 
@@ -22,30 +24,32 @@
 
 .yt_hero_text {
     flex: 1;
-    background-color: #f2ece1;
-    color: #3c423b;
+    order: 1;
+    background-color: #F2ECE1;
+    color: #3C423B;
     text-align: center;
-    margin-left: 15%;
-    padding-top: 40px;
+
 }
 
 .yt_hero_text h1 {
     margin: 0px 0px 40px;
 }
-  
-.yt_hero_text p {
-    
+
+.yt_hero_first a {
+    color: #3C423B;
 }
   
+
+  
 .googlemaps {
-    flex: 1;
+    order: 2;
     margin-right: 15%;
 }
 
-
+/*SAAPUMISOHJEET*/
 
 .yt_ohjeet {
-    background-color: #909a90;
+    background-color: #909A90;
     color: #FBF7F4; 
     padding-top: 50px;
     padding-bottom: 50px;
@@ -61,36 +65,124 @@
 }
 
 
+.yt_ohjeet_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .yt_ohjeet_auto {
-    text-align: center;
+    order: 2;
     padding-top: 50px;
-   
+    
+     
 }
 
 
 .yt_ohjeet_julkinen {
-    text-align: center;
+    order: 1;
     padding-top: 50px;
-    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1327px) {
+    .yt_ohjeet_container {
+        display: contents;        
+    }
+
+    .yt_ohjeet_text {
+        margin: 10%;
+    }
+
+    .yt_ohjeet_auto {
+        margin: 10%
+    }
+
+    .yt_ohjeet_julkinen  {
+        margin: 10%;
+    }
 }
 
 
+/*YHTEYDENOTTOLOMAKE*/
+
+
+
 .yt_lomake {
-   /* background-image: url("./images/couple-outside-landscape.jpg"); */
-    background-size: cover;
-    color:#3c423b;
-    background-position: 45%;
+    background-color:#F2ECE1;
+    color: #3C423B;
+   
 }
 
 .yt_lomake h1 {
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
-.yt_lomake form {
-    margin-left: 41% ;
+.yt_container {
+    padding-left: 5%;
+    display: flex;
+    
+
 }
 
+.yt_teksti {
+   
+    order: 1;
+    max-width: 400px;
+    
+}
+.lomake {
+    font-size: smaller;
+    padding-left: 7.5%;
+    order: 2;
+}
+
+.neverstopthemadness {
+    background-image: url(https://www.jussikari.fi/wp-content/uploads/2019/03/never_stop_the_madness.jpg);
+    background-position: 55%;
+    background-size: 112%;
+    text-align: center;
+    color: #3c423b00;
+    border: 2px solid #3C423B;
+    border-radius: 100%;
+    padding: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    order: 5;
+   
+}
+
+@media screen and (max-width: 1327px) {
+.yt_container {
+    display: contents;   
+}
+
+.yt_teksti {
+    margin: 10%;
+}
+
+}
+
+
+
+
+.laheta {
+    font-family: "Playfair display", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3C423B;
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 2.5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.laheta:hover {
+    background-color: #909A90;
+    transform: scale(1.1);
+}
 
 
 
@@ -106,7 +198,7 @@
     }
     
     .yt_lomake form {
-        margin-left: 5%; /*VITTUKU PITÄIS OLLA 10%*/
+        margin-left: 5%
         
     }
 }
