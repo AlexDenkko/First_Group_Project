@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="etusivu.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Etusivu</title>
+</head>
+<body>
+
+  <nav>
+    <div class="container"></div>
+    <a href="#" class="logo"><img src="" alt="logo"></a>
+
+    <a href="#">HighEndHikers</a>
+  </nav>
+
+  <!--Nav päättyy-->
+
+  <header>
+    <div class="swiper header-swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+               <div class="content">
+                <img src="couple-outside-landscape.jpg" alt="">
+                <div class="slide-title">Kuvakaruselli</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, maiores.</p>
+               </div> 
+            </div>
+        </div>
+    </div>
+
+    
+            <div class="swiper-slide">
+               <div class="content">
+                <img src="couple-outside-landscape2.jpg" alt="">
+                <div class="slide-title">Kuvakaruselli</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, maiores.</p>
+               </div> 
+            </div>
+        </div>
+    </div>
+
+            <div class="swiper-slide">
+               <div class="content">
+                <img src="couple-outside-landscape3.jpg" alt="">
+                <div class="slide-title">Kuvakaruselli</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, maiores.</p>
+               </div> 
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+  </header>
+
+  <!--Header päättyy-->
+
+  <div class="container">
+    <section id="kampanjat">
+      <div class="content">
+        <h2>kampanjat</h2>
+        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, animi.</p>
+
+        <div class="kampanjat-container">
+          <div class="kampanja1">
+            <div class="icon">
+              <img src="" alt="">
+            </div>
+
+            <div class="kampanjat-content">
+              <h3>Kampanja1</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis veniam, animi sint, 
+                accusamus facere voluptate et dolorum consectetur nisi aliquam culpa minima ex numquam!
+              </p>
+            </div>
+          </div>
+
+          <div class="kampanja2">
+            <div class="icon">
+              <img src="" alt="">
+            </div>
+
+            <div class="kampanjat-content">
+              <h3>Kampanja2</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis veniam, animi sint, 
+                accusamus facere voluptate et dolorum consectetur nisi aliquam culpa minima ex numquam!
+              </p>
+            </div>
+
+            <div class="kampanja3">
+              <div class="icon">
+                <img src="" alt="">
+              </div>
+  
+              <div class="kampanjat-content">
+                <h3>Kampanja3</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam reiciendis veniam, animi sint, 
+                  accusamus facere voluptate et dolorum consectetur nisi aliquam culpa minima ex numquam!
+                </p>
+              </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const headerSwiper = new Swiper('.header-swiper', {
+           navigation: {
+             nextEl: ".swiper-button-next",
+             prevEL: ".swiper-button-prev",
+           },
+           loop: true, 
+           autoplay: {
+               delay: 5000,
+           }
+        })
+    </script>
+    
+</body>
+</html>
