@@ -109,6 +109,7 @@
 .yt_lomake {
     background-color:#F2ECE1;
     color: #3C423B;
+    _margin-bottom: 5%;
    
 }
 
@@ -137,12 +138,13 @@
 .neverstopthemadness {
     background-image: url(https://www.jussikari.fi/wp-content/uploads/2019/03/never_stop_the_madness.jpg);
     background-position: 55%;
-    background-size: 112%;
+    background-size: 100%;
     color: #3c423b00;
+    background-color: #F2ECE1;
     border: 2px solid #3C423B;
     border-radius: 50%;
     padding: 5%;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
     order: 3;
    
 }
@@ -197,4 +199,71 @@
         margin-left: 5%
         
     }
+}
+
+
+
+/*HENKILÖKUNTA*/
+    .yt_henkilokunta {
+        background-color: #909A90;
+        color: #FBF7F4; 
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .yt_henkilokunta_text h1 {
+        margin: 0px 0px 40px;
+    }
+    
+    .yt_henkilokunta_text {
+        text-align: center;
+       
+    }
+
+
+    .yt_henkilokunta_cards {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    
+    .card {
+        width: 300px;
+        background-color: #F2ECE1;
+        border: 1.5px solid #3C423B;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+    
+    .card-img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+    
+    .card h3 {
+        margin: 10px 0;
+        font-size: 1.5em;
+        color: #3C423B;
+    }
+    
+    .card p {
+        margin: 5px 0;
+        font-size: 1em;
+        color: #3C423B;
+    }
+
+
+
+.yt_end_image img {
+    object-fit: cover;
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: -5px;
 }

@@ -163,7 +163,7 @@ button:hover {
 footer {
     background-color: #909a90;
     color: #FBF7F4;
-    position: fixed;
+    _position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
